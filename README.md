@@ -105,7 +105,7 @@ THEFT           8
 Tested locally before cluster submission using the standard pipeline simulation:
 
 ```
-akalotaibi1@laptop:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task2.py | sort | python3 src/reducer_sum.py
+akalotaibi1:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task2.py | sort | python3 src/reducer_sum.py
 ASSAULT         6
 BATTERY         7
 BURGLARY        3
@@ -175,7 +175,7 @@ STREET          6
 ### Local Pipeline Test (Sample Dataset)
 
 ```
-malhokail@laptop:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task3.py | sort | python3 src/reducer_sum.py
+malhokail:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task3.py | sort | python3 src/reducer_sum.py
 APARTMENT       3
 BAR OR TAVERN   1
 COMMERCIAL      3
@@ -246,7 +246,7 @@ mapred streaming \
 ### Local Pipeline Test (Sample Dataset)
 
 ```
-nourabma@laptop:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task4.py | sort | python3 src/reducer_sum.py
+nourabma:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task4.py | sort | python3 src/reducer_sum.py
 2024    30
 ```
 
@@ -300,7 +300,7 @@ true    16
 ### Local Pipeline Test (Sample Dataset)
 
 ```
-akalotaibi1@laptop:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task5.py | sort | python3 src/reducer_sum.py
+akalotaibi1:~/ANMcyberanalytics$ cat chicago_crimes_sample.csv | python3 src/mapper_task5.py | sort | python3 src/reducer_sum.py
 false   14
 true    16
 ```
