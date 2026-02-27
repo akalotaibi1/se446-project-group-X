@@ -128,8 +128,6 @@ mapred streaming \
     -output /user/akalotaibi1/project/m1/task2
 ```
 
-> Full cluster execution log and output will be added after running on `/data/chicago_crimes.csv`.
-
 ---
 
  Task 3: Location Hotspots
